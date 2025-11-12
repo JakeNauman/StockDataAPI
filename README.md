@@ -15,7 +15,10 @@ It has 1 endpoint that takes in a stock name and returns the:
 of each day, for the past month (30 days). Data is colelcted across 15 minute intervals.
 
 
+
 **To run this API application:**
+
+
   > git clone https://github.com/JakeNauman/StockDataAPI
   
   In the solution folder, configure user secrets to the external api key you can obtain here: https://www.alphavantage.co/support/#api-key
