@@ -4,13 +4,13 @@ Jake Nauman  11/12/2025
 This is an API created in ASP.NET Core. 
 It has 1 endpoint that takes in a stock name and returns the:
 
-  Date (day)
+  >Date (day)
   
-  Average High
+  >Average High
   
-  Average Low
+  >Average Low
   
-  Total Volume
+  >Total Volume
   
 of each day, for the past month (30 days). Data is colelcted across 15 minute intervals.
 
