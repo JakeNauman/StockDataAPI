@@ -14,6 +14,7 @@ To run this API application:
   
   In the solution folder, configure user secrets to the external api key you can obtain here: https://www.alphavantage.co/support/#api-key
   >> dotnet user-secrets init
+>  > 
   >> dotnet user-secrets set "AlphaVantage:ApiKey" "YOUR_API_KEY"
   
   You should now be able to run the application and access the endpoint localhost:####/StockData/{StockName}
