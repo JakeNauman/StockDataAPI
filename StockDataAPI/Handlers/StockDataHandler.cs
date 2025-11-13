@@ -19,7 +19,7 @@ namespace StockDataAPI.Handlers
             _httpClient = httpClient;
         }
 
-        // Queries external API to retrieve stock data by input string StockName
+        // Queries external API to retrieve stock data by input string stockName
         // Groups by day on the past 30 days and calculates average High, Low and total Volume
         // Returns a list of StockData objects for each day
         public async Task<IEnumerable<StockData>> QueryDataAsync(string stockName)

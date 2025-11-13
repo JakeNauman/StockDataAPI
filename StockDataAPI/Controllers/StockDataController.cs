@@ -22,7 +22,7 @@ namespace StockDataAPI.Controllers
         // Given string StockName, returns a list of StockData objects
         //  with average High and Low values, and total Volume on each day
         //  for the last month (30 days)
-        [HttpGet("{StockName}")]
+        [HttpGet("{stockName}")]
         public async Task<ActionResult<IEnumerable<StockData>>> GetStockDataByName(string stockName)
         {
             try
